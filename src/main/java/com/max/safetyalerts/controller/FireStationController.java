@@ -12,13 +12,15 @@ import java.util.List;
 
 @RestController
 public class FireStationController {
+
+    @Autowired
     private FireStationServiceImpl fireStationServiceImpl;
 
     @Autowired
     private FireStationRepository fireStationRepository;
 
-    private FireStationController(FireStationServiceImpl fireStationServiceImpl) {
-        this.fireStationServiceImpl = fireStationServiceImpl;
+    private FireStationController() {
+
     }
 
     /**

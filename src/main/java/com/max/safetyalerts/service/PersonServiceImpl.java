@@ -33,8 +33,9 @@ public class PersonServiceImpl implements PersonService {
     @Autowired
     private FireStationService fireStationService;
 
-    @Autowired
-    private FireStationServiceImpl fireStationServiceImpl;
+    //@Autowired
+    //private FireStationServiceImpl fireStationServiceImpl;
+
     @Autowired
     private MedicalRecordServiceImpl medicalRecordServiceImpl2;
 
