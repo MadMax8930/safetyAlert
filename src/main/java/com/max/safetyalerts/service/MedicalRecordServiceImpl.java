@@ -14,7 +14,7 @@ import java.util.List;
 
 @Service()
 //@Configuration
-//@ComponentScan("com.openclassroms.SafetyNetAlerts")
+//@ComponentScan("com.max.safetyalerts")
 
 public class MedicalRecordServiceImpl implements MedicalRecordService {
 
